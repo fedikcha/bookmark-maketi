@@ -96,7 +96,7 @@ img{
   height: auto;
 }
 
-/* Autofill-styles */
+/* Autofill-styles
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
@@ -112,14 +112,14 @@ select:-webkit-autofill:focus{
   transition: background-color 5000s ease-in-out 0s;
 }
 
-/* placeholder-styles */
+placeholder-styles
 ::-webkit-input-placeholder,
 ::-moz-placeholder,
 :-ms-input-placeholder,
 :-moz-placeholder {
   color: rgb(52, 49, 61, 0.5);
   opacity: 1;
-}
+} */
 
 
 /* visually-hidden */
@@ -149,6 +149,140 @@ select:-webkit-autofill:focus{
 /* MAIN-CONTENT */
 .main-content{
   flex-grow: 1;
+}
+
+
+/* button */
+.button {
+  display: inline-block;
+  padding: 8px 22px;
+  border: 2px solid transparent;
+  font-size: 14px;
+  line-height: 2;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+  border-radius: 5px;
+}
+.button:active{
+  opacity: 0.6;
+}
+
+.button--red {
+  background-color: var(--red);
+  color: #fff;
+}
+.button--red:hover {
+  background-color: #fff;
+  color: var(--red);
+  border-color: var(--red);
+}
+
+.button--site-header{
+  padding: 10px 31px;
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: 1.5px;
+}
+
+.button--blue {
+  background-color: var(--blue);
+  color: #fff;
+}
+.button--blue:hover {
+  background-color: #fff;
+  color: var(--red);
+  border-color: var(--blue);
+}
+
+.button--grey {
+  background-color: #f7f7f7;
+  color: var(--text-color);
+}
+.button--grey:hover {
+  background-color: #fff;
+  color: var(--text-color);
+  border-color: #5b6074;
+}
+
+.button--block{
+  display: block;
+  width: 100%;
+}
+
+
+/* logo */
+.logo {
+  display: block;
+  text-decoration: none;
+}
+.logo:hover{
+  opacity: 0.8;
+}
+.logo:active{
+  opacity: 0.6;
+}
+
+.logo__img {
+  display: block;
+  width: 149px;
+  height: 25px;
+  object-fit: contain;
+}
+
+/* sitenav */
+.sitenav{
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: 1.5px;
+}
+
+.sitenav__list{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sitenav__item:not(:last-child){
+  margin-right: 48px;
+}
+
+.sitenav__link{
+  display: block;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.sitenav__link:hover{
+  color: var(--red);
+}
+.sitenav__link:active{
+  opacity: 0.6;
+}
+
+
+/* site-header */
+.site-header {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  text-transform: uppercase;
+}
+
+.site-header__container {
+  display: flex;
+  align-items: center;
+}
+
+.site-header__logo {
+  margin-right: auto;
+}
+
+.site-header__sitenav{
+  margin-right: 48px;
 }
 
 
