@@ -408,6 +408,9 @@ placeholder-styles
 .accordion__item-text {
   margin: 0;
 }
+.accordion__item-text:not(:last-child){
+  margin-bottom: 20px;
+}
 
 
 /* socials */
@@ -735,7 +738,7 @@ placeholder-styles
   display: block;
   height: 100%;
   width: 100%;
-  max-width: 262px;
+  max-width: 264px;
   padding: 0 20px;
   border: 2px solid transparent;
   border-radius: 5px;
@@ -744,7 +747,7 @@ placeholder-styles
 }
 
 .subcription__field:not(:focus):not(:placeholder-shown):invalid {
-  padding-right: 52px;
+  /* padding-right: 52px; */
   border-color: var(--red);
   background-image: url("error.svg");
   background-repeat: no-repeat;
