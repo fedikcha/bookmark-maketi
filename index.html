@@ -80,8 +80,8 @@
           </ul>
 
           <!-- tabs-panels -->
-          <div class="tabs__panels">
-            <div class="tabs__panel tabs__panel--active" id="feature-simple-bookmarking">
+          <div class="tabpanels">
+            <div class="tabpanels__item tabpanels__item--active" id="feature-simple-bookmarking">
               <section class="feature-tab-panel">
                 <div class="hero__rasm-div hero__rasm-divcha">
                   <div class="hero-rasm"></div>
@@ -94,7 +94,7 @@
               </section>
             </div>
 
-            <div class="tabs__panel" id="feature-speedy0searchimg">
+            <div class="tabpanels__item" id="feature-speedy0searchimg">
               <section class="feature-tab-panel">
                 <div class="hero__rasm-div">
                   <div class="hero-rasm"></div>
@@ -107,7 +107,7 @@
               </section>
             </div>
 
-            <div class="tabs__panel" id="feature-easy-sharing">
+            <div class="tabpanels__item" id="feature-easy-sharing">
               <section class="feature-tab-panel">
                 <div class="hero__rasm-div">
                   <div class="hero-rasm"></div>
@@ -126,22 +126,107 @@
 
 
     <!-- Download-Extenstion -->
-    <section class="section">
+    <section class="extensions section">
       <div class="container">
         <div class="section__info">
           <h2 class="section__title">Download the extension</h2>
           <p class="section__description">We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us</p>
+        </div>
+
+        <div class="extensions__inner">
+          <ul class="extensions__list">
+            <li class="extensions__item extension">
+              <div class="rasm"></div>
+                <h3 class="extension__title">Add to toChrome</h3>
+                <p class="extension__browser-version">Minimum version 62</p>
+                  <a href="#" target="_blank" class="button button--blue button--block extension--button">Add & Install Extension</a>
+            </li>
+
+            <li class="extensions__item extension">
+              <div class="rasm"></div>
+                <h3 class="extension__title">Add to Firefox</h3>
+                <p class="extension__browser-version">Minimum version 55</p>
+                  <a href="#" target="_blank" class="button button--blue button--block extension--button">Add & Install Extension</a>
+            </li>
+
+            <li class="extensions__item extension">
+              <div class="rasm"></div>
+                <h3 class="extension__title">Add to Opera</h3>
+                <p class="extension__browser-version">Minimum version 46</p>
+                  <a href="#" target="_blank" class="button button--blue button--block extension--button">Add & Install Extension</a>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
 
 
     <!-- Faq -->
-    <section class="section">
+    <section class="faq section">
       <div class="container">
-        <div class="section__info">
+        <div class="faq__section-info section__info ">
           <h2 class="section__title">Frequently Asked questions</h2>
           <p class="section__description">Here are some of our FAQS. if you have any other questions yoy'd like answered please feel to email usa.</p>
+        </div>
+
+        <div class="faq__inner">
+          <div class="faq__accordion">
+            <div class="accordion">
+              <section class="accordion__item">
+                <header class="accordion__item-header">
+                  <h3 class="accordion__item-title">What is Bookmark?</h3>
+                  <button class="accordion__item-toggler">
+                    <svg class="accordion__item-toggler-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="13" fill="none"><path stroke="currentColor" stroke-width="3" d="m2 2 8 8 8-8"/></svg>
+                  </button>
+                </header>
+
+                <div class="accordion__item-content">
+                  <p class="accordion__item-text">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+                </div>
+              </section>
+
+              <section class="accordion__item">
+                <header class="accordion__item-header">
+                  <h3 class="accordion__item-title">How can I request a now browser?</h3>
+                  <button class="accordion__item-toggler">
+                    <svg class="accordion__item-toggler-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="13" fill="none"><path stroke="currentColor" stroke-width="3" d="m2 2 8 8 8-8"/></svg>
+                  </button>
+                </header>
+
+                <div class="accordion__item-content">
+                  <p class="accordion__item-text">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+                </div>
+              </section>
+
+              <section class="accordion__item">
+                <header class="accordion__item-header">
+                  <h3 class="accordion__item-title">Is there a mobile app?</h3>
+                  <button class="accordion__item-toggler">
+                    <svg class="accordion__item-toggler-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="13" fill="none"><path stroke="currentColor" stroke-width="3" d="m2 2 8 8 8-8"/></svg>
+                  </button>
+                </header>
+
+                <div class="accordion__item-content">
+                  <p class="accordion__item-text">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+                </div>
+              </section>
+
+              <section class="accordion__item">
+                <header class="accordion__item-header">
+                  <h3 class="accordion__item-title">What about other Chromium browsers?</h3>
+                  <button class="accordion__item-toggler">
+                    <svg class="accordion__item-toggler-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="13" fill="none"><path stroke="currentColor" stroke-width="3" d="m2 2 8 8 8-8"/></svg>
+                  </button>
+                </header>
+
+                <div class="accordion__item-content">
+                  <p class="accordion__item-text">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+                </div>
+              </section>
+            </div>
+          </div>
+
+          <a href="#" class="button button--blue faq__inner--bottom">More info</a>
         </div>
       </div>
     </section>
